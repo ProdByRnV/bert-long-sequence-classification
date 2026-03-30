@@ -1,0 +1,4 @@
+Model,Approach,Accuracy,F1 Score,Training Time (s),Parameters
+Baseline BERT (Truncated),Hard truncation @ 512 tokens,0.9140,0.9140,755,"109,483,778"
+Sliding Window — Mean Pool,"Chunks (510t, stride 256), mean-pool CLS",0.9020,0.9020,2805,"109,483,778"
+Sliding Window — Max Pool,"Chunks (510t, stride 256), max-pool CLS",0.9020,0.9020,2803,"109,483,778"
